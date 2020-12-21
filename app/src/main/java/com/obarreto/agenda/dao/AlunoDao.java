@@ -16,7 +16,7 @@ public class AlunoDao {
         alunos.add(aluno);
     }
 
-    //Devolve um cópia da refência lista estática
+    //Devolve um cópia da referência lista estática garantindo o encapsulamento
     public List<Aluno> todos() {
         return new ArrayList<>(alunos);
 

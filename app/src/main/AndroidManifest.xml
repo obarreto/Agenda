@@ -10,9 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Agenda">
-        <activity android:name=".ui.activity.ListaAlunoActivity" />
+        <activity android:name=".ui.activity.FormularioAlunoActivity" />
 
-        <activity android:name=".ui.activity.FormularioAlunoActivity">
+        <activity android:name=".ui.activity.ListaAlunoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

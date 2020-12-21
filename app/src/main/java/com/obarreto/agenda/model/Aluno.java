@@ -13,7 +13,7 @@ public class Aluno {
         this.email = email;
     }
 
-    @NonNull
+    @NonNull //Notação utilizada para indicar de que não faz sentido enviar dado nulo
     @Override
     //Retorna o atributo nome para lista que será mostrado em acitvity_lista_aluno
     public String toString() {
