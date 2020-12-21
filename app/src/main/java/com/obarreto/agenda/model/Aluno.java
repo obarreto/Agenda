@@ -15,6 +15,7 @@ public class Aluno {
 
     @NonNull
     @Override
+    //Retorna o atributo nome para lista que será mostrado em acitvity_lista_aluno
     public String toString() {
         return nome;
     }
